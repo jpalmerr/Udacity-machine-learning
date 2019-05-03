@@ -2,4 +2,4 @@
 
 *holy grail of probalistic inference*
 
-[Cancer Test] (**link**)
+[Cancer Test](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/CancerTest.png)

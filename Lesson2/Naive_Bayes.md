@@ -1,9 +1,9 @@
 ## Gaussian NB Deployment quiz
 
-[Code] (**new link**)
+[Code](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/classifyNBsklearn.png)
 for `classifyNB.py` file.
 
-[Graph] (**new link**)
+[Graph](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/classifyNBsklearnGraph.png)
 
 **Accuracy**
 
