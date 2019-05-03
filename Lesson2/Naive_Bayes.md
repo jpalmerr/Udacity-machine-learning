@@ -19,4 +19,7 @@ from sklearn.metrics import accuracy_score
 print accuracy_score(pred, labels_test)
 # returns a percentage
 ```
-Accuracy refers to the `decision curve`.
+Accuracy is defined as the number of test points that are classified correctly divided by the total number of test points.
+
+`print clf.score(features_test, labels_test)`
+also works.
