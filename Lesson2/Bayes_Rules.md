@@ -8,4 +8,4 @@
 
 `prior probability + test evidence => posterior probability`
 
-[Computing absolute probability:] (insert link)
+[Computing absolute probability:](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/PriorPosterior.png)
