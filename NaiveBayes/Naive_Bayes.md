@@ -1,9 +1,9 @@
 ## Gaussian NB Deployment quiz
 
-[Code](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/classifyNBsklearn.png)
+![Code](/public/classifyNBsklearn.png)
 for `classifyNB.py` file.
 
-[Graph](https://github.com/jpalmerr/Udacity-machine-learning/blob/master/public/classifyNBsklearnGraph.png)
+![Graph](/public/classifyNBsklearnGraph.png)
 
 **Accuracy**
 
@@ -23,3 +23,12 @@ Accuracy is defined as the number of test points that are classified correctly d
 
 `print clf.score(features_test, labels_test)`
 also works.
+
+
+## So why is Naive Bayes 'naive'?
+
+It returns a 'ratio' on whether a `label` is more or less likely etc.
+It is called naive because it ignores one thing:
+```
+Word Order
+```
