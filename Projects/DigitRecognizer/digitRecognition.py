@@ -20,14 +20,22 @@ actual_label = data[21000:, 0]
 
 # a test sample
 
-# d = xtest[8]
-# d.shape=(28,28)
-# pt.imshow(255-d, cmap='gray')
-# print(clf.predict( [xtest[8]]))
-# pt.show()
-p = clf.predict(xtest)
+var = input("Please enter a number for which image to try, between 0 and 21000: ")
+value = int(var)
 
-count = 0
-for i in range(0, 21000):
-    count += 1 if p[i] == actual_label[i] else 0
-print("Accuracy = ", (count/21000)*100)
+print("You entered: " + var)
+print("predicting...")
+d = xtest[value]
+d.shape=(28,28)
+pt.imshow(255-d, cmap='gray')
+print(clf.predict( [xtest[value]]))
+pt.show()
+
+# test results
+
+# p = clf.predict(xtest)
+#
+# count = 0
+# for i in range(0, 21000):
+#     count += 1 if p[i] == actual_label[i] else 0
+# print("Accuracy = ", (count/21000)*100)
